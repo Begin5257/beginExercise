@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <link rel="stylesheet" type="text/css" href="days-003.css">
+</head>
+<body>
+    <nav id="nav">
+        <h3>TODO</h3>
+    </nav>
+    <div id="container">
+        <div id="TODO">
+            <ul>
+                <li>9:00 开晨会</li>
+                <li>10:00 完成学生管理功能</li>
+                <li>10:00 完成教师添加功能</li>
+                <li>9:00 开晨会</li>
+                <li>10:00 完成学生管理功能</li>
+                <li>10:00 完成教师添加功能</li>
+                <li class="content"></li>
+            </ul>
+        </div>
+        <div id="table">
+            <form>
+                <label>标题</label>
+                <input type="text" class="narrow" id="lable">
+                <br>
+                <label>时间</label>
+                <input type="text" class="narrow" id="time">
+                <br>
+                <label>内容</label>
+                <input type="text" class="wide" id="content">
+                <button class="btn" onclick="save()">保存</button>
+                <button class="btn" onclick="emptyAll()">清除</button>
+            </form>
+        </div>
+    </div>
+    <script src="days-003.js"></script>
+</body>
+</html>
