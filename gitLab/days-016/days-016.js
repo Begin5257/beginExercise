@@ -132,6 +132,7 @@ function removeOne() {
     parent.removeChild(li[k - 1]);
 }
 function liStatus(){
+    var li = document.getElementsByTagName("li");
     for (var i =li.length-1; i>0;i--) {
         li[i].index = i;
         li[i].onclick = function () {
@@ -154,6 +155,7 @@ function selectRemove() {
     //当li被选中时,改变字体颜色和状态
     //调查一下表单状态
     //liStatus();
+    var li = document.getElementsByTagName("li");
     var storage = JSON.parse(localStorage.getItem("key"));
     for (var j = li.length-1; j >0; j--) {
         if (li[j].selected) {

@@ -1,0 +1,15 @@
+#drawing{
+    background-color: gainsboro;
+}
+#image{
+    position: absolute;
+    z-index: 2000;
+    top: 300px;
+    left: 50px;
+}
+#zhangai{
+    position: absolute;
+    z-index: 2000;
+    top: 590px;
+    left: 600px;
+}
