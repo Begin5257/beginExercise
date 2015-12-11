@@ -5,20 +5,46 @@
     <title></title>
 </head>
 <body>
-    <div id="content"></div>
+<form id="myForm">
+    <label for="myName">Send me your name:</label>
+    <input id="myName" name="name" value="John">
+    <input type="submit" value="Send Me!">
+</form>
     <script>
-       var xhr = new XMLHttpRequest();
-        xhr.onreadystatechange = function(){
-            if(xhr.readyState==4){
-                if((xhr.status>=200&&xhr.status<300)||xhr.status ==304){
-                    alert(xhr.responseText);
-                }else{
-                    alert("Request was unsuccessful:"+xhr.status);
-                }
+        window.addEventListener("load", function () {
+            function sendData() {
+                var XHR = new XMLHttpRequest();
+
+                // We bind the FormData object and the form element
+                var FD  = new FormData(form);
+
+                // We define what will happen if the data are successfully sent
+                XHR.addEventListener("load", function(event) {
+                    alert(event.target.responseText);
+                });
+
+                // We define what will happen if case of error
+                XHR.addEventListener("error", function(event) {
+                    alert('Oups! Something goes wrong.');
+                });
+
+                // We setup our request
+                XHR.open("POST", "http://192.168.16.11:3000/todo",true);
+
+                // The data send are the one the user provide in the form
+                XHR.send(FD);
             }
-        };
-        xhr.open("get","http://192.168.16.11:3000/todo",true);
-        xhr.send(null);
+
+            // We need to access the form element
+            var form = document.getElementById("myForm");
+
+            // to takeover its submit event.
+            form.addEventListener("submit", function (event) {
+                event.preventDefault();
+
+                sendData();
+            });
+        });
     </script>
 </body>
 </html>

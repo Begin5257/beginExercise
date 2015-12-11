@@ -2,6 +2,9 @@
  * Created by 83916 on 2015/12/11.
  */
 /**
+ * Created by 83916 on 2015/12/11.
+ */
+/**
  * Created by Beginning on 2015/12/4.
  */
 //清除表单中所有内容
@@ -81,45 +84,49 @@ btn.onclick = function() {
     }
 };
 //加载页面时将localStorage中内容显示出来
-function load(){
-    var xhr = new XMLHttpRequest();
-    xhr.onreadystatechange = function(){
-        if(xhr.readyState==4){
-            if((xhr.status>=200&&xhr.status<300)||xhr.status ==304){
-                var arr=JSON.parse(xhr.responseText);
-                for (var i = 0; i < arr.length; i++) {
-                    var hiLable = arr[i].time+"-"+arr[i].title;
-                    var newLable = document.createElement("li");
-                    var node = document.createTextNode(hiLable);
-                    newLable.appendChild(node);
-
-                    var element = document.getElementById("add");
-                    element.appendChild(newLable);
-                    newLable.setAttribute("content",arr[i].content);
-                }
-                //点击li标签可以在右边方框显示详细内容
-                var li = document.getElementsByTagName("li");
-                for (var j = 0; j < li.length; j++) {
-                    li[j].index = j;
-                    li[j].onclick = function () {
-                        var str = document.getElementsByTagName('li')[this.index].innerText;
-                        var arr = str.split("-");
-                        var time = arr[0];
-                        var lable1 = arr[1];
-                        var neirong = li[this.index].getAttribute("content");
-
-                        document.getElementById('content').value = neirong;
-                        document.getElementById("newLable").value=lable1;
-                        document.getElementById("newTime").value=time;
-                    };
-                }
-            }else{
-                alert("Request was unsuccessful:"+xhr.status);
-            }
-        }
-    };
-    xhr.open("get","http://192.168.16.11:3000/todo",true);
-    xhr.send(null);
+function load() {
+    $(function()
+    {
+        $("#buttonn").click(function () {
+            $.get("http://192.168.16.11:3000/todo",{
+                title:$("#newLable").val(),
+                time:$("#newTime").val(),
+                content:$("content").val()
+            },function(data,textStatus){
+                    var time = data.time;
+                    var title = data.title;
+                    var txtHTML = "<li>"+time+"-"+title+"</li>";
+                    $("#neirong").html(txtHTML);
+                },"json");
+        });
+    });
+    //var arr = JSON.parse(xhr.responseText);
+    //for (var i = 0; i < arr.length; i++) {
+    //    var hiLable = arr[i].time + "-" + arr[i].title;
+    //    var newLable = document.createElement("li");
+    //    var node = document.createTextNode(hiLable);
+    //    newLable.appendChild(node);
+    //
+    //    var element = document.getElementById("add");
+    //    element.appendChild(newLable);
+    //    newLable.setAttribute("content", arr[i].content);
+    //}
+    ////点击li标签可以在右边方框显示详细内容
+    //var li = document.getElementsByTagName("li");
+    //for (var j = 0; j < li.length; j++) {
+    //    li[j].index = j;
+    //    li[j].onclick = function () {
+    //        var str = document.getElementsByTagName('li')[this.index].innerText;
+    //        var arr = str.split("-");
+    //        var time = arr[0];
+    //        var lable1 = arr[1];
+    //        var neirong = li[this.index].getAttribute("content");
+    //
+    //        document.getElementById('content').value = neirong;
+    //        document.getElementById("newLable").value = lable1;
+    //        document.getElementById("newTime").value = time;
+    //    };
+    //}
 }
 
 var li = document.getElementsByTagName("li");

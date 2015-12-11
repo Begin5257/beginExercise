@@ -2,11 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="83a9c266-a1a0-45e9-9b1d-424841cf1041" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/days-018/days-018.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/days-018/days-018.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/days-018/days-018.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Ajax/test.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Ajax/index.html" afterPath="$PROJECT_DIR$/Ajax/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/days-018/jquery-Ajax.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/days-018/days-018.html" afterPath="$PROJECT_DIR$/days-018/days-018.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/days-018/days-018.js" afterPath="$PROJECT_DIR$/days-018/days-018.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Ajax/test.html" afterPath="$PROJECT_DIR$/Ajax/test.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="beginExercise.iws" />
@@ -28,35 +27,11 @@
     <favorites_list name="beginExercise" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.19704953">
+    <splitter split-orientation="horizontal" split-proportion="0.76238143">
       <split-first>
-        <leaf>
-          <file leaf-file-name="test.html" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/Ajax/test.html">
-              <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.3244186">
-                  <caret line="9" column="38" selection-start-line="9" selection-start-column="38" selection-end-line="9" selection-end-column="38" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-first>
-      <split-second>
-        <splitter split-orientation="horizontal" split-proportion="0.51645124">
+        <splitter split-orientation="horizontal" split-proportion="0.6634282">
           <split-first>
             <leaf>
-              <file leaf-file-name="test.html" pinned="false" current-in-tab="false">
-                <entry file="file://$PROJECT_DIR$/Ajax/test.html">
-                  <provider selected="true" editor-type-id="text-editor">
-                    <state vertical-scroll-proportion="-5.3142858">
-                      <caret line="6" column="6" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
-                      <folding />
-                    </state>
-                  </provider>
-                </entry>
-              </file>
               <file leaf-file-name="days-018.css" pinned="false" current-in-tab="false">
                 <entry file="file://$PROJECT_DIR$/days-018/days-018.css">
                   <provider selected="true" editor-type-id="text-editor">
@@ -67,11 +42,38 @@
                   </provider>
                 </entry>
               </file>
-              <file leaf-file-name="days-018.js" pinned="false" current-in-tab="true">
+              <file leaf-file-name="days-018.js" pinned="false" current-in-tab="false">
                 <entry file="file://$PROJECT_DIR$/days-018/days-018.js">
                   <provider selected="true" editor-type-id="text-editor">
-                    <state vertical-scroll-proportion="0.58435756">
-                      <caret line="43" column="0" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
+                    <state vertical-scroll-proportion="0.0">
+                      <caret line="89" column="28" selection-start-line="89" selection-start-column="28" selection-end-line="89" selection-end-column="28" />
+                      <folding />
+                    </state>
+                  </provider>
+                </entry>
+              </file>
+              <file leaf-file-name="jquery-Ajax.js" pinned="false" current-in-tab="true">
+                <entry file="file://$PROJECT_DIR$/days-018/jquery-Ajax.js">
+                  <provider selected="true" editor-type-id="text-editor">
+                    <state vertical-scroll-proportion="0.06927374">
+                      <caret line="83" column="5" selection-start-line="83" selection-start-column="5" selection-end-line="83" selection-end-column="5" />
+                      <folding>
+                        <element signature="e#43#85#0" expanded="false" />
+                        <element signature="n#!!block;n#emptyAll#0" expanded="false" />
+                        <element signature="n#!!block;n#removeAll#0" expanded="false" />
+                        <element signature="n#!!block;n#removeOne#0" expanded="false" />
+                        <element signature="n#!!block;n#liStatus#0" expanded="false" />
+                        <element signature="n#!!block;n#selectRemove#0" expanded="false" />
+                      </folding>
+                    </state>
+                  </provider>
+                </entry>
+              </file>
+              <file leaf-file-name="days-018.html" pinned="false" current-in-tab="false">
+                <entry file="file://$PROJECT_DIR$/days-018/days-018.html">
+                  <provider selected="true" editor-type-id="text-editor">
+                    <state vertical-scroll-proportion="-3.3142858">
+                      <caret line="18" column="10" selection-start-line="18" selection-start-column="10" selection-end-line="18" selection-end-column="10" />
                       <folding />
                     </state>
                   </provider>
@@ -81,21 +83,11 @@
           </split-first>
           <split-second>
             <leaf>
-              <file leaf-file-name="days-016.js" pinned="false" current-in-tab="true">
-                <entry file="file://$PROJECT_DIR$/gitLab/days-016/days-016.js">
+              <file leaf-file-name="days-018.html" pinned="false" current-in-tab="true">
+                <entry file="file://$PROJECT_DIR$/days-018/days-018.html">
                   <provider selected="true" editor-type-id="text-editor">
-                    <state vertical-scroll-proportion="0.7273743">
-                      <caret line="58" column="38" selection-start-line="58" selection-start-column="8" selection-end-line="58" selection-end-column="38" />
-                      <folding />
-                    </state>
-                  </provider>
-                </entry>
-              </file>
-              <file leaf-file-name="days-018.js" pinned="false" current-in-tab="false">
-                <entry file="file://$PROJECT_DIR$/days-018/days-018.js">
-                  <provider selected="true" editor-type-id="text-editor">
-                    <state vertical-scroll-proportion="0.0">
-                      <caret line="63" column="17" selection-start-line="63" selection-start-column="17" selection-end-line="63" selection-end-column="17" />
+                    <state vertical-scroll-proportion="0.5360465">
+                      <caret line="29" column="10" selection-start-line="29" selection-start-column="10" selection-end-line="29" selection-end-column="72" />
                       <folding />
                     </state>
                   </provider>
@@ -104,6 +96,20 @@
             </leaf>
           </split-second>
         </splitter>
+      </split-first>
+      <split-second>
+        <leaf>
+          <file leaf-file-name="days-018.js" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/days-018/days-018.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state vertical-scroll-proportion="0.3463687">
+                  <caret line="75" column="60" selection-start-line="75" selection-start-column="30" selection-end-line="75" selection-end-column="60" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
       </split-second>
     </splitter>
   </component>
@@ -127,10 +133,11 @@
         <option value="$PROJECT_DIR$/littleJump-game/base.js" />
         <option value="$PROJECT_DIR$/gitLab/days-016/days-016.js" />
         <option value="$PROJECT_DIR$/Ajax/index.html" />
-        <option value="$PROJECT_DIR$/Ajax/test.html" />
         <option value="$PROJECT_DIR$/days-018/days-018.css" />
-        <option value="$PROJECT_DIR$/days-018/days-018.html" />
         <option value="$PROJECT_DIR$/days-018/days-018.js" />
+        <option value="$PROJECT_DIR$/Ajax/test.html" />
+        <option value="$PROJECT_DIR$/days-018/days-018.html" />
+        <option value="$PROJECT_DIR$/days-018/jquery-Ajax.js" />
       </list>
     </option>
   </component>
@@ -345,7 +352,13 @@
       <option name="project" value="LOCAL" />
       <updated>1449755641200</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Ajax TODO">
+      <created>1449822665104</created>
+      <option name="number" value="00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1449822665104</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -354,6 +367,7 @@
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.0" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -363,7 +377,6 @@
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -388,7 +401,8 @@
     <MESSAGE value="gitLab003,016 finished" />
     <MESSAGE value="gitLab003,016 finished(19:11)" />
     <MESSAGE value="Ajax exercise" />
-    <option name="LAST_COMMIT_MESSAGE" value="Ajax exercise" />
+    <MESSAGE value="Ajax TODO" />
+    <option name="LAST_COMMIT_MESSAGE" value="Ajax TODO" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -603,22 +617,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/days-018/days-018.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.56569344">
-          <caret line="19" column="20" selection-start-line="19" selection-start-column="20" selection-end-line="19" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Ajax/test.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-5.3142858">
-          <caret line="6" column="6" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/gitLab/days-016/days-016.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.7273743">
@@ -627,11 +625,42 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/days-018/days-018.js">
+    <entry file="file://$PROJECT_DIR$/Ajax/test.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.58435756">
+        <state vertical-scroll-proportion="0.6848837">
           <caret line="43" column="0" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/days-018/days-018.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="89" column="28" selection-start-line="89" selection-start-column="28" selection-end-line="89" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/days-018/days-018.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-3.3142858">
+          <caret line="18" column="10" selection-start-line="18" selection-start-column="10" selection-end-line="18" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/days-018/jquery-Ajax.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.06927374">
+          <caret line="83" column="5" selection-start-line="83" selection-start-column="5" selection-end-line="83" selection-end-column="5" />
+          <folding>
+            <element signature="e#43#85#0" expanded="false" />
+            <element signature="n#!!block;n#emptyAll#0" expanded="false" />
+            <element signature="n#!!block;n#removeAll#0" expanded="false" />
+            <element signature="n#!!block;n#removeOne#0" expanded="false" />
+            <element signature="n#!!block;n#liStatus#0" expanded="false" />
+            <element signature="n#!!block;n#selectRemove#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
