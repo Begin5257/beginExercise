@@ -5,40 +5,28 @@
     <title></title>
 </head>
 <body>
+    <div id="content"></div>
     <script>
-        function createXHR(){
-            var XHR=null;
-            if(typeof window.XMLHttpRequest !='undefined'){
-                XHR= new XMLHttpRequest();
-            }else if(typeof window.ActiveXObject !='undefined'){
-                if(arguments.callee.activeXString !='string'){
-                    var versions=['MSXML2.XMLHttp.6.0','MSXML.XMLHttp.3.0','MSXML.XMLHttp'];
-                    for(var i=0;i<versions.length;i++){
-                        try{
-                            new ActiveXObject(versions[i]);
-                            arguments.callee.activeXString=versions[i];
-                            break;
-                        }catch(ex){
-                            //跳过
-                        }
-                    }
+        function createXML(){
+            var xmlhttp;
+            if (window.XMLHttpRequest)
+            {// code for IE7+, Firefox, Chrome, Opera, Safari
+                xmlhttp =new XMLHttpRequest();
+            }
+            else
+            {// code for IE6, IE5
+                xmlhttp =new ActiveXObject("Microsoft.XMLHTTP");
+            } xmlhttp.onreadystatechange=function()
+            {
+                if (xmlhttp.readyState==4 && xmlhttp.status==200)
+                {
+                    document.getElementById("content").innerHTML=xmlhttp.responseText;
                 }
-                XHR= new ActiveXObject(arguments.callee.activeXString)
-            }else{
-                throw new Error('您的浏览器不支持XMLHttRequest!!')
-            }
-            return XHR;
+            };
+            xmlhttp.open("GET","http://192.168.16.11:3000/todo",true);
+            xmlhttp.send();
         }
-        createXHR();
-        var request=new XMLHttpRequest();
-        request.open("GET","get.php",true);
-        request.send();
-        request.onreadystatehcange=function(){
-            if(request.readyState===4&&request.status===200){ //做一些事情
-                alert
-
-            }
-            }
+            createXML();
     </script>
 </body>
 </html>
