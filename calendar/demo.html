@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <link rel="stylesheet" type="text/css" href="calender.css">
+</head>
+<body>
+<div class="day">
+    <div class="DaySelect">
+        <i class="lr" onclick="Month('l')"></i>
+        <div class="select">
+        <div class="stop" id="cy">2015</div>
+        <div class="sbox">
+            <ul id="YearAll">
+                <li>2013</li>
+            </ul>
+        </div>
+    </div>
+    <div class="select" id="sm">
+        <div class="stop" id="cm">12</div>
+        <div class="sbox" id="mm">
+            <ul id="DateAll">
+                <li>01</li>
+            </ul>
+        </div>
+    </div>
+    <i class="lr" onclick="Month('r')"></i>
+        <i onclick="now()"></i>
+</div>
+<div id="DayAll"></div>
+</div>
+</body>
+<script src="calender.js"></script>
+</html>
