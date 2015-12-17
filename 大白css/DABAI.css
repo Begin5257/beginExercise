@@ -1,0 +1,127 @@
+body{
+    background: darkred;
+}
+
+#baymax{
+    margin:200px auto;
+    height:600px;
+    width:400px;
+}
+
+#head{
+    height: 64px;
+    width: 100px;
+    background-color: white;
+    border-bottom: 2px solid #E0E0E0;
+    margin-bottom: -25px;
+    border-radius: 50%;
+    position: relative;
+    z-index: 100;
+}
+#eye1{
+    height: 15px;
+    width: 13px;
+    background-color: #000000;
+    border-radius: 50%;
+    position: relative;
+    top: 20px;
+    left: 25px;
+}
+#eye2{
+    height: 15px;
+    width: 13px;
+    background-color: #000000;
+    border-radius: 50%;
+    position: relative;
+    left: 62px;
+    top: 5px;
+}
+#eyeLight{
+    background-color: #000;
+    height: 2px;
+    width: 50px;
+    margin-left: 25px;
+    margin-top: -3px;
+}
+#torso,#belly{
+    margin:0 auto;
+    height:200px;
+    width:180px;
+    background:#fff;
+    border-radius:50%;
+    border: 2px solid #E0E0E0;
+    border-top:none;
+    z-index:1;
+    position: relative;
+    right: 150px;
+}
+#belly{
+    height:300px;
+    width:240px;
+    margin-top:-140px;
+    z-index:5;
+}
+#cover{
+    width:180px;
+    background:#fff;
+    height:150px;
+    margin:0 auto;
+    position:relative;
+    top:-20px;
+    border-radius:50%;
+}
+#hover{
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    border: 1px solid #E0E0E0;
+    background-color: white;
+    position: relative;
+    left: 120px;
+}
+#hover-light{
+    width: 25px;
+    height: 2px;
+    background-color: #E0E0E0;
+    position: relative;
+    top: 10px;
+}
+#left-arm,#right-arm{
+    height: 273px;
+    width: 100px;
+    border-radius: 50%;
+    background-color: #FFFFFF;
+    position: relative;
+    top: -350px;
+    left: -100px;
+    transform: rotate(20deg);
+    -webkit-transform:  rotate(20deg);
+    z-index:-1;
+}
+#right-arm{
+    transform: rotate(-20deg);
+    -webkit-transform:  rotate(-20deg);
+    left: 100px;
+    top: -620px;
+}
+#left-leg,#right-leg{
+    height: 170px;
+    width: 90px;
+    position: relative;
+    left: -180px;
+    margin-top:-630px;
+    margin-left:130px;
+    border-radius: 50%;
+    background-color: #FFFFFF;
+    transform: rotate(-15deg);
+    -webkit-transform:  rotate(-15deg);
+    z-index:-2;
+}
+#right-leg{
+    background: #fff;
+    position:relative;
+    top:25px;
+    left:-15px;
+    transform: rotate(30deg);
+    -webkit-transform: rotate(30deg);
+}
