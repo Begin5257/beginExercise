@@ -1,0 +1,103 @@
+body{
+    margin: 0px;
+   font-family: "Microsoft YaHei";
+    color: #777;
+}
+#nav{
+    width: 100%;
+    height: 60px;
+    background-color: #3C82C0;
+    font-family: cursive;
+    color: white;
+    font-size: 2em;
+}
+#nav h3{
+    margin: 0 10%;
+}
+#TODO{
+    font-size: 1.1em;
+    margin-top:80px;
+    margin-left: 10%;
+    width: 20%;
+    height: 400px;
+    float: left;
+    border: 1px solid #3C82C0;
+    border-radius: 15px;
+}
+#TODO ul{
+    padding-left: 0!important;
+    text-align: center;
+}
+#TODO li{
+    width: 100%;
+    border-bottom: 1px solid #3C82C0;
+    list-style-type: none;
+    margin-bottom: 10px;
+}
+#table{
+    font-size: 1.1em;
+    margin-right: 20%;
+    margin-top:80px;
+    width: 40%;
+    height: 400px;
+    float: right;
+    border: 1px solid #3C82C0;
+    border-radius: 15px;
+}
+#table form{
+    text-align: center;
+    width: 70%;
+    margin: 40px auto;
+}
+.narrow{
+     margin-left: 5%;
+     margin-bottom: 5px;
+     width: 80%;
+     height: 30px;
+     border: 1px solid #3C82C0;
+     border-radius: 5px;
+ }
+.wide{
+    margin-left: 5%;
+    margin-bottom: 5px;
+    width: 80%;
+    height: 200px;
+    border: 1px solid #3C82C0;
+    border-radius: 5px;
+}
+.content{
+    height: auto;
+    border-bottom: none!important;
+}
+.btn{
+    font-family: "Microsoft YaHei";
+    font-size: 0.9em;
+    color: #777777;
+    width: 20%;
+    height: 35px;
+    margin-left: 10%;
+    background-color: white;
+    border: 1px solid #3C82C0;
+    border-radius: 5px;
+}
+/************************************************************************************
+ 屏幕宽度小于1000px时的样式~
+*************************************************************************************/
+@media screen and (max-width: 1000px) {
+    #TODO{
+        float: none;
+        width: 80%;
+        text-align: center;
+    }
+    #table{
+        float: none;
+        width: 80%;
+        height: auto;
+        text-align: center;
+        margin-left: 10%;
+        margin-bottom: 50px;
+    }
+    #table form{
+        width: 90%;
+    }
+}

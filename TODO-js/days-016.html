@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <link rel="stylesheet" type="text/css" href="days-016.css">
+</head>
+<body>
+<nav id="nav">
+    <h3>TODO</h3>
+</nav>
+<div id="container">
+    <div id="TODO">
+        <ul id="add">
+            <!--<li onclick="showContent()"><span id ="timer" ></span><span id="labler"></span> </li>-->
+        </ul>
+        <button type="button" class="btnNew" id="btn1" onclick="selectRemove()">清空一条</button>
+        <button type="button" class="btnNew" id="test" onclick="removeAll()">清空全部</button>
+    </div>
+    <div id="table">
+        <form id="form1">
+            <label>标题</label>
+            <input type="text" class="narrow" name="lable" id="newLable">
+            <br>
+            <label>时间</label>
+            <input type="text" class="narrow" name="time" id="newTime">
+            <br>
+            <label>内容</label>
+            <input type="text" class="wide" id="content" >
+            <button type="button" class="btn" id="btn">保存</button>
+            <button type="button" class="btn" onclick="emptyAll()" >清除</button>
+        </form>
+    </div>
+</div>
+<script src="days-016.js"></script>
+</body>
+</html>

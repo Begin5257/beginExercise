@@ -1,0 +1,14 @@
+body{
+    margin: 50px auto;
+}
+#list{
+    width: 50%;
+    float: left!important;
+}
+#showlist{
+    width: 50%;
+    float: right!important;
+}
+#pushDish th{
+    margin-right: 20px;
+}
